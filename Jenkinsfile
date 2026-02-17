@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'AGENT-1' }
+    agent { label 'agent-1' }
 
     environment { 
         PROJECT = 'EXPENSE'
