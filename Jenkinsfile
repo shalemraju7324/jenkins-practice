@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { lable 'AGENT-1' }
 
     stages {
 
