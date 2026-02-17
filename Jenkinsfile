@@ -1,5 +1,9 @@
 pipeline {
     agent { label 'agent-1' }
+    environment {
+        PROJECT = 'EXPENSE'
+        COMPONENT = 'BACKEND'
+    }
 
     stages {
 
